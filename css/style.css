@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Roboto&display=swap');
+
+.nav{
+    height: 50px;
+    background: #b6092e;
+    font-family: 'Lato', sans-serif;
+}
+.nav div{
+    display: inline-block;
+    position: absolute;
+    left: 10px;
+    padding: 15px;
+    font-size: 20px;
+    color: rgb(225, 225, 225);
+    font: bolder 28px 'Lato', sans-serif;
+    letter-spacing: 5px;
+}
+a{
+    text-decoration: none;
+}
+.nav ul{
+    position: absolute;
+    right: 15px;
+}
+.nav ul li{
+    display: inline-block;
+}
+.nav ul li a{
+    color:rgb(225, 225, 225);
+    padding: 5px;
+}
+
+.nav ul li a:hover{
+    color:rgb(235, 238, 16);
+    padding: 1px;
+    background-color: #d82a50;
+    font-size: 22px;
+    border-radius: 7px;
+}
+
+/*HOME PAGE*/
+
+.home{
+    background: url("https://image.freepik.com/foto-gratis/atardecer-colorido-amarillo-sol-dramatica_1203-5704.jpg");
+    background-size: cover;
+    height: auto;
+}
+.home .text-container{
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 90vh;
+    color: #b6092e;
+}
+.about-content{
+    margin: 150px auto 0px auto;
+    width: 500px;
+}
+h1{
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    color: #b6092e;
+}
+p{
+    text-align: justify;
+    font-family: 'Lato', sans-serif;
+    padding-bottom: 20px;
+}
+
+/* SERVICES PAGE*/ 
+.services-content{
+    margin: 80px auto 0 auto;
+    text-align: center;
+}
+.services-content .card-container ul{
+    padding: 0;
+}
+.services-content .card-container ul li {
+    list-style: none;
+    display: inline-block;
+    margin: 20px;
+    width: 300px;
+}
+.services-content .card-container ul li p {
+    text-align: justify;
+}
+.services-content .card-container img{
+    border: 2px;
+    width: 200px;
+}
+/*CONTACT US PAGE*/
+.contact-content{
+    margin: 80px auto 0 auto;
+    text-align: center;
+    height: 500px;
+}
+.address-holder{
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+}
+.address-holder p{
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+}
+h4{
+    padding-bottom: 20px;
+}
